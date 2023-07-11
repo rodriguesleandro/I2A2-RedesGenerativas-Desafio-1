@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #1e90ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+/* Product list styles */
+.product-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #1e90ff;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin-top: 10px;
+}

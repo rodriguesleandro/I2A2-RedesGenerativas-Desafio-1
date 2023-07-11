@@ -1,0 +1,57 @@
+/* login.css */
+
+/* Global styles */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #1e90ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+/* Login form styles */
+.login {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #1e90ff;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
